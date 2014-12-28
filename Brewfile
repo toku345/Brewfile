@@ -1,10 +1,10 @@
-update
-upgrade
+# tap repositories and their packages
 
-#tap phinze/homebrew-cask
-#tap caskroom/cask
-#tap dart-lang/dart
+## caskroom/versions
+tap caskroom/versions
+cask install google-chrome-canary
 
+# Other Homebrew packages
 install brew-cask
 install curl
 install openssl
@@ -19,32 +19,29 @@ install coreutils
 install autoconf
 install automake
 install gawk
-# install grep
 install imagemagick
-# install mongodb
-# install zlib
 install tree
 install wget
 install ctags
-# install dart
-# install dartium
 install ghc
 install cabal-install
 install sqlite
 
-cask install virtualbox
-cask install vagrant
-cask install google-chrome
-cask install chromium
-# cask install dropbox
-# cask install evernote
-# cask install firefox
-cask install karabiner
+# Cask applications
 cask install alfred
-cask install lastpass-universal
+cask install alfred
 cask install bettertouchtool
+cask install chromium
+cask install google-chrome
 cask install google-japanese-ime
-cask install the-unarchiver
+cask install hipchat
+cask install karabiner
 cask install sourcetree
+cask install the-unarchiver
+cask install vagrant
+cask install virtualbox
+cask install xtrafinder
 
-cask alfred link
+# Other commands
+update
+upgrade
